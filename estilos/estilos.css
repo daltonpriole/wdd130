@@ -1,5 +1,13 @@
+:root {
+    --cor-fundo-titulo: darkblue;
+    --cor-texto-titulo: white;
+    --fonte-texto-titulo: 'Montserrat', Helvetica, sans-serif;
+    --padding: 1rem;
+    --border: 1px, rgb (0 0 0 / 0.1)
+}
+
 nav {
-    background-color: darkblue;
+    background-color: var(--cor-fundo-titulo);
     padding: 10px;
 }
 
@@ -10,7 +18,8 @@ nav a {
 }
 
 h1 {
-    color: darkblue;
+    color: var(--cor-fundo-titulo);
+    text-decoration-color: var(--cor-texto-titulo);
 }
 
 img {
