@@ -1,3 +1,10 @@
+/*reset config*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 :root {
     --cor-fundo-titulo: darkblue;
     --cor-texto-titulo: white;
@@ -8,18 +15,19 @@
 
 nav {
     background-color: var(--cor-fundo-titulo);
-    padding: 10px;
+    padding: 5px;
 }
 
 nav a {
     color: white;
     display: block;
-    padding: 20px;
+    padding: 10px;
 }
 
 h1 {
     color: var(--cor-fundo-titulo);
     text-decoration-color: var(--cor-texto-titulo);
+    padding-bottom: 2rem;
 }
 
 img {
@@ -31,7 +39,7 @@ img {
 }
 
 p {
-    padding: 0;
+    padding-bottom: 2rem;
 }
 
 main {
@@ -44,16 +52,21 @@ main img {
     border: 1px solid black;
     padding: 5px;
     box-shadow: 0 0 45px gray;
+    float: right;
 }
 
 aside {
     width: 400px;
-    margin: 5px;
-    border: 1px solid black;
-    padding: 10px;
-    background-color: grey;
     color: black;
     text-align: center;
+    position: relative;
+}
+
+aside h2 {
+    color: white;
+    position: absolute;
+    bottom: 130px;
+    left: 100px
 }
 
 aside img {
@@ -66,4 +79,17 @@ footer {
     padding-bottom: 10px;
     border-top: 1px solid black;
     text-align: center;
+}
+
+/* Seletor de classe */
+
+.caixa {
+    margin: 5px;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: grey;
+}
+
+.identacao {
+    padding-left: 2rem;
 }
