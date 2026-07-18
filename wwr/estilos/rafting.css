@@ -50,7 +50,16 @@ article {
 }
 
 .hero {
+    background-image: url('../imagens/rafting_background.jpg');
     position: relative;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
 
 .hero img {
