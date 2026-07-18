@@ -50,6 +50,12 @@ article {
     position: relative;
 }
 
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
 .hero h1 {
     position: absolute;
     top: 20px;
@@ -61,12 +67,6 @@ article {
     color: #fff;
 }
 
-.hero img {
-    display: block;
-    width: 100%;
-    height: auto;
-}
-
 .hero article {
     position: absolute;
     float: right;
@@ -76,7 +76,7 @@ article {
     box-shadow: inset gray;
 }
 
-.hero article {
+.hero article img {
     position: absolute;
     float: right;
     width: 250px;
